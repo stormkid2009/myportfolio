@@ -1,6 +1,7 @@
 import React ,{Component} from 'react';
 import ReactDOM from 'react-dom';
 import Header from './header/header.js';
+import Main from './content/content.js';
 import './styles/index.css';
 
 class App extends Component{
@@ -9,6 +10,7 @@ class App extends Component{
       <div>
         
         <Header />
+        <Main />
       </div>
     );
   }
