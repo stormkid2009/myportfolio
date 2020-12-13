@@ -1,13 +1,17 @@
-function Projects (){
+const Projects =()=>{
     return(
-        <div>
-            <h4>Main Projects</h4>
-            <select>
+        <div className="col">
+            <div >
+                <button type="button" className="btn btn-secondary dropdown-toggle"
+                data-toggle="dropdown">projects</button>
+                <div className="dropdown-menu">
+                    <a className="dropdown-item">item</a>
+                    <a className="dropdown-item">item</a>
+                    <a className="dropdown-item">item</a>
+                    <a className="dropdown-item">item</a>
+                </div>
+            </div>
             
-            <option> ToDo list</option>
-            <option> landing page</option>
-            <option>Survey</option>
-        </select>
         </div>
     );
 }

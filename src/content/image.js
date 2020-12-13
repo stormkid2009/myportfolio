@@ -1,9 +1,8 @@
-const Pic = ()=>{
+const Image=()=>{
     return(
         <div>
-            <img src='../images/bg.jpg' width="500px" height="500px" alt= "anime" />
-        
+            <img src='../images/sherif.jpg' className="img-thumbnail" alt="me"></img>
         </div>
     );
 }
-export default Pic
+export default Image
