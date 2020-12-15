@@ -1,7 +1,7 @@
 import React ,{Component} from 'react';
 import ReactDOM from 'react-dom';
-import Header from './header/header.js';
-import Main from './content/main.js';
+import Header from '../src/header/header.js';
+import Main from '../src/content/main.js';
 //adding styles stuff bootstrap and its dependencies
 import $ from 'jquery';
 import Popper from 'popper.js';
