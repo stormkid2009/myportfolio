@@ -1,5 +1,6 @@
 import React,{Component} from 'react'
 import Image from './image.js'
+import Appgallery from './apps-gallery.js'
 export default class Main extends Component{
     render(){
         return(
@@ -19,6 +20,10 @@ export default class Main extends Component{
                     </div>
 
                 </div>
+                <div className="row">
+                    <Appgallery />
+                </div>
+
                 
             </div>
         );
